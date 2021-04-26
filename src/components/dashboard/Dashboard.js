@@ -19,6 +19,8 @@ import MainListItems from './listItems';
 
 import EmptyPage from '../pages/EmptyPage';
 import ReportsPage from '../pages/ReportsPage';
+import IpPage from '../pages/IpPage';
+
 
 import {
 	BrowserRouter as Router,
@@ -170,6 +172,9 @@ export default function Dashboard() {
 								</Route>
 								<Route path="/reports-page">
 									<ReportsPage></ReportsPage>
+								</Route>
+								<Route path="/ip-page">
+									<IpPage></IpPage>
 								</Route>
 								<Redirect to="/empty-page">
 								</Redirect>

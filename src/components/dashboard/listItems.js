@@ -12,16 +12,16 @@ export const MainListItems = (props) => {
             <ListItemButton isToolbarOpen={isToolbarOpen} buttonName="Phones"
                 tabMenuItems={
                     [
-                        { text: 'Телефоны инфо', linkTo: '/reports-page' },
-                        { text: 'Телефоны по ФИО', linkTo: '/reports-page' },
-                        { text: 'Телефоны с переадресацией', linkTo: '/reports-page' }
+                        { text: 'Телефоны инфо', linkTo: '/empty-page' },
+                        { text: 'Телефоны по ФИО', linkTo: '/empty-page' },
+                        { text: 'Телефоны с переадресацией', linkTo: '/empty-page' }
                     ]
                 }>
             </ListItemButton>
             <ListItemButton isToolbarOpen={isToolbarOpen} buttonName="IP Planning"
                 tabMenuItems={
                     [
-                        { text: 'IPAM', linkTo: '/reports-page' }
+                        { text: 'IPAM', linkTo: '/ip-page' }
                     ]
                 }>
             </ListItemButton>
